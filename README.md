@@ -6,6 +6,8 @@ This project is a simple motion detection alert system built using an Arduino bo
 
 This project serves as a basic home security and intrusion detection system and is suitable for beginners in Arduino and embedded systems.
 
+---
+
 ## Features
 
 * Detects human motion using a PIR motion sensor.
@@ -14,6 +16,7 @@ This project serves as a basic home security and intrusion detection system and 
 * Simple and beginner-friendly Arduino code.
 * Low-cost and easy to build.
 
+---
 
 ## Components Required
 
@@ -24,6 +27,7 @@ This project serves as a basic home security and intrusion detection system and 
 * Jumper Wires
 * USB Cable
 
+---
 
 ## Circuit Connections
 
@@ -35,10 +39,11 @@ This project serves as a basic home security and intrusion detection system and 
 | Buzzer (+)     | Digital Pin 11 |
 | Buzzer (-)     | GND            |
 
+---
 
 ## Arduino Code
 
-
+```cpp
 #define buzzer 11
 #define motion 8
 
@@ -67,7 +72,9 @@ void loop()
 
   delay(200);
 }
+```
 
+---
 
 ## How It Works
 
@@ -78,6 +85,7 @@ void loop()
 5. When no motion is detected, the sensor outputs a LOW signal.
 6. The Arduino turns the buzzer off and displays **"No Motion"** on the Serial Monitor.
 
+---
 
 ## Applications
 
@@ -88,6 +96,7 @@ void loop()
 * Smart Home Automation
 * Arduino Learning Projects
 
+---
 
 ## Future Improvements
 
@@ -98,10 +107,16 @@ void loop()
 * Add an OLED or LCD display for status information.
 * Include a relay module to trigger external devices such as lights or sirens.
 
+---
+
+## License
+
+This project is licensed under the MIT License.
+
+---
 
 ## Author
 
 **Mehadi Hasan Bijoy**
 Electrical & Electronic Engineering
 Embedded Systems | Arduino | IoT Enthusiast
-
